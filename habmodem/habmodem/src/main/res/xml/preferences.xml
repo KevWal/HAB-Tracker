@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="pref_callsign"
+        android:title="@string/pref_callsign"
+        android:summary="@string/pref_callsign_summ"
+        android:defaultValue="CALLSIGN123" />
+    
+    <CheckBoxPreference
+		  android:key="pref_keep_screen" 
+		  android:title="@string/pref_keep_screen_title"
+		  android:summary="@string/pref_keep_screen_summ"
+		  android:defaultValue="true"/>
+    
+    <Preference
+        android:key="pref_map_path"
+        android:title="@string/pref_map_path"
+        android:summary="@string/pref_map_path_summ"
+        android:defaultValue="/mnt/sdcard/england.map" />
+    
+    <EditTextPreference
+		  android:key="pref_habitat_update_freq" 
+		  android:title="@string/pref_habitat_update_title"
+		  android:summary="@string/pref_habitat_update_summ"
+		  android:numeric="integer"
+		  android:defaultValue="3"/>
+    
+    <EditTextPreference
+		  android:key="pref_chase_update_freq" 
+		  android:title="@string/pref_chase_update_title"
+		  android:summary="@string/pref_chase_update_summ"
+		  android:numeric="integer"
+		  android:defaultValue="45"/>
+    
+    <EditTextPreference
+		  android:key="pref_inactive" 
+		  android:title="@string/pref_inactive_title"
+		  android:summary="@string/pref_inactive_summ"
+		  android:numeric="integer"
+		  android:defaultValue="15"/>
+    
+   
+    <PreferenceScreen
+        android:key="button_advanced_settings"
+        android:title="@string/pref_advanced"
+        android:persistent="false">
+        
+        <EditTextPreference
+        android:key="pref_habitat_server"
+        android:title="@string/pref_habitat_server"
+        android:summary="@string/pref_habitat_server_summ"
+        android:defaultValue="habitat.habhub.org" />
+        
+        <EditTextPreference
+        android:key="pref_habitat_db"
+        android:title="@string/pref_habitat_db"
+        android:summary="@string/pref_habitat_db_summ"
+        android:defaultValue="habitat" />
+        
+        <EditTextPreference
+        android:key="pref_predictor_server"
+        android:title="@string/pref_predictor_server"
+        android:summary="@string/pref_predictor_server_summ"
+        android:defaultValue="spacenear.us/tracker/get_predictions.php" />
+        
+         <EditTextPreference
+		  android:key="pref_habitat_max_lines" 
+		  android:title="@string/pref_habitat_lines_title"
+		  android:summary="@string/pref_habitat_lines_summ"
+		  android:numeric="integer"
+		  android:defaultValue="3000"/>
+
+		<EditTextPreference
+			android:key="pref_waterfall_sensitivity"
+			android:title="@string/pref_waterfall_sensitivity_title"
+			android:summary="@string/pref_waterfall_sensitivity_summ"
+			android:inputType="numberDecimal"
+			android:defaultValue="1"/>
+
+         <CheckBoxPreference
+		  android:key="pref_test_enable" 
+		  android:title="@string/pref_test_enable_title"
+		  android:summary="@string/pref_test_enable_summ"
+		  android:defaultValue="false"/>
+        
+        
+    </PreferenceScreen>
+    
+</PreferenceScreen>

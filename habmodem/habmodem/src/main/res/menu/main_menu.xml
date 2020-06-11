@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/status_screen"
+          android:icon="@drawable/ic_action_decoder"
+          android:showAsAction="ifRoom|withText"
+          android:title="@string/status_screen" />
+     <item android:id="@+id/map_screen"
+          android:showAsAction="ifRoom|withText"
+          android:icon="@drawable/ic_action_map"
+          android:title="@string/map_screen" />   
+    <item android:id="@+id/location_dialog"
+          android:icon="@drawable/ic_action_location"
+          android:showAsAction="ifRoom"
+          android:title="@string/location_dialog" />
+    <item android:id="@+id/refresh_button"
+          android:icon="@drawable/ic_action_refresh"
+          android:showAsAction="ifRoom"
+          android:title="@string/refresh_button" />
+    <item android:id="@+id/btconnect_screen"
+          android:icon="@drawable/ic_action_refresh"
+          android:showAsAction="ifRoom"
+          android:title="@string/btconnect_button" />
+    <item android:id="@+id/graphs_button"
+          android:title="@string/graphs_button"/>
+  <!--   <item android:id="@+id/fft_screen"
+          android:showAsAction="ifRoom|withText"
+          android:title="@string/fft_screen" /> -->
+       <item android:id="@+id/toggle_online"
+          android:showAsAction="withText"
+          android:checkable="true"
+          android:title="@string/online_button" />   
+          
+      <item android:id="@+id/log_screen"
+          android:showAsAction="withText"
+          android:title="@string/log_screen" />
+    <item android:id="@+id/settings_screen"
+          android:title="@string/settings_screen" />
+   
+          
+
+</menu>

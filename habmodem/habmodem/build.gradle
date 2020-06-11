@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.brejza.matt.habmodem"
+        minSdkVersion 11
+        targetSdkVersion 22
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    packagingOptions {
+        pickFirst  'META-INF/*'
+    }
+}
+
+dependencies {
+    implementation project(':androidfilechooser')
+    implementation 'com.android.support:support-v4:19.1.0'
+    implementation files('libs/achartengine-1.0.0.jar')
+    implementation files('libs/commons-beanutils-mod.jar')
+    implementation files('libs/commons-codec-1.7.jar')
+    implementation files('libs/commons-collections-3.2.1.jar')
+    implementation files('libs/commons-lang.jar')
+    implementation files('libs/commons-lang3-3.1.jar')
+    implementation files('libs/commons-logging-1.1.1.jar')
+    implementation files('libs/ezmorph-1.0.3.jar')
+    implementation files('libs/jackson-all-1.9.11.jar')
+    implementation files('libs/javassist.jar')
+    implementation files('libs/jmathplot.jar')
+    implementation files('libs/json-lib-2.2.3-MODIFIED-jdk15.jar')
+    implementation files('libs/jtransforms-2.4.jar')
+    implementation files('libs/mapsforge-map-0.3.0-jar-with-dependencies.jar')
+    implementation files('libs/msgpack-0.6.12-SNAPSHOT.jar')
+}
