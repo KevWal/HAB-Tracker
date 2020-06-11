@@ -22,10 +22,10 @@ It is my first time working with Android apps so please feel free to point out a
 ## Version History
 
 V24 - 0.8.3 - First Android Studio built version, including the following changes:
-*Increase the vertical size of the waterfall and message box components on the screen
-*Add a waterfall scale parameter to advanced options - allows the full colour gradient to be used
-*Increase the speed of the waterfall by reducing the default buffer size to 1,500 (was 3,000)
-*Fix the Echo button functionality on my Galaxy S10
+* Increase the vertical size of the waterfall and message box components on the screen
+* Add a waterfall scale parameter to advanced options - allows the full colour gradient to be used
+* Increase the speed of the waterfall by reducing the default buffer size to 1,500 (was 3,000)
+* Fix the Echo button functionality on my Galaxy S10
 
 V - - Matt's unreleased latest version, included untested 100 and 150 baud functionality
 
