@@ -15,7 +15,7 @@ If you wish to translate into your own language, all the strings can be found in
 
 ## Android Studio Update
 
-This is the first commit of a copy of Matt's code, updated to compile in Android Studio.  It was written in Eclipse which is now [defunct](https://android-developers.googleblog.com/2015/06/an-update-on-eclipse-android-developer.html) for Android apps.
+This is the first commit of a copy of Matt's code, updated to compile in Android Studio.  It was originally written in Eclipse which is now [defunct](https://android-developers.googleblog.com/2015/06/an-update-on-eclipse-android-developer.html) for Android apps.
 
 It is my first time working with Android apps so please feel free to point out any howlers, but it does build to an APK!  The repository is not a direct fork of Matt's [original repository](https://github.com/mattbrejza/rtty_modem), as the files have all changed locations as part of the Android Studio Upgrade.
 
@@ -23,9 +23,10 @@ It is my first time working with Android apps so please feel free to point out a
 
 V24 - 0.8.3 - First Android Studio built version, including the following changes:
 * Increase the vertical size of the waterfall and message box components on the screen
-* Add a waterfall scale parameter to advanced options - allows the full colour gradient to be used
+* Add a waterfall colour gradient scale parameter to advanced options - allows the full colour gradient to be used
 * Increase the speed of the waterfall by reducing the default buffer size to 1,500 (was 3,000)
-* Fix the Echo button functionality on my Galaxy S10
+* Fix the Echo button functionality on my Galaxy S10 (doesn't seem to work on some other devices)
+* Fix the Strings in the Payload data snippit on the map page
 
 V - - Matt's unreleased latest version, included untested 100 and 150 baud functionality
 
