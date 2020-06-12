@@ -3,7 +3,8 @@
     android:id="@+id/rlPayloadInfo"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
-
+
+
              <TableLayout
                  android:layout_width="match_parent"
                  android:layout_height="wrap_content"
@@ -54,7 +55,7 @@
                          android:layout_height="wrap_content"
                          android:layout_column="0"
                          android:layout_marginRight="5dp"
-                         android:text="@+string/time"
+                         android:text="@string/time"
                          android:textAppearance="?android:attr/textAppearanceSmall" />
 
                      <TextView
@@ -62,7 +63,7 @@
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:layout_marginRight="5dp"
-                         android:text="@+string/latitude"
+                         android:text="@string/latitude"
                          android:textAppearance="?android:attr/textAppearanceSmall" />
 
                      <TextView
@@ -70,7 +71,7 @@
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:layout_marginRight="2dp"
-                         android:text="@+string/longitude"
+                         android:text="@string/longitude"
                          android:textAppearance="?android:attr/textAppearanceSmall" />
                  </TableRow>
 
@@ -114,7 +115,7 @@
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:layout_marginRight="5dp"
-                         android:text="@+string/altitude"
+                         android:text="@string/altitude"
                          android:textAppearance="?android:attr/textAppearanceSmall" />
 
                      <TextView
@@ -122,7 +123,7 @@
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:layout_marginRight="5dp"
-                         android:text="@+string/altitude_max"
+                         android:text="@string/altitude_max"
                          android:textAppearance="?android:attr/textAppearanceSmall" />
 
                      <TextView
@@ -130,7 +131,7 @@
                          android:layout_width="wrap_content"
                          android:layout_height="wrap_content"
                          android:layout_marginRight="2dp"
-                         android:text="@+string/ascent_rate"
+                         android:text="@string/ascent_rate"
                          android:textAppearance="?android:attr/textAppearanceSmall" />
                  </TableRow>
 
