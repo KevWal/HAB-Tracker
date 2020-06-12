@@ -1,7 +1,7 @@
 # HAB-Tracker
 Android HAB Tracker App.  Originally written by Matt Brejza and modified by Kevin Walton.
 
-If you just want the latest APK it is here:  [XX](http://xx/)
+If you just want the latest APK it is here:  [https://github.com/KevWal/HAB-Tracker/tree/master/habmodem/apk-release](https://github.com/KevWal/HAB-Tracker/tree/master/habmodem/apk-release)
 
 ## About 
 
@@ -26,7 +26,7 @@ V24 - 0.8.3 - First Android Studio built version, including the following change
 * Add a waterfall colour gradient scale parameter to advanced options - allows the full colour gradient to be used
 * Increase the speed of the waterfall by reducing the default buffer size to 1,500 (was 3,000)
 * Fix the Echo button functionality on my Galaxy S10 (doesn't seem to work on some other devices)
-* Fix the Strings in the Payload data snippit on the map page
+* Fix the Strings in the Payload data on the map page
 
 V - - Matt's unreleased latest version, included untested 100 and 150 baud functionality
 
