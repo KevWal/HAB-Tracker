@@ -9,7 +9,7 @@ HAB-Tracker is an android app which decodes rtty signals and displays the teleme
 
 Original project page is here: [https://ukhas.org.uk/projects:hab_modem](https://ukhas.org.uk/projects:hab_modem)
 
-##Translating
+## Translating
 
 If you wish to translate into your own language, all the strings can be found in habmodem/src/main/res/values/strings.xml The translated file should then be saved under values-XX/strings.xml, where XX is the ISO country code.
 
